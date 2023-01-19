@@ -1,0 +1,31 @@
+
+
+
+#formDiv{
+    margin: 7% 15%;
+}
+
+#cardDiv{
+    margin: 30px;
+}
+.container{
+    /* display: inline-flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    flex-direction: row; */
+    display: inline-flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    overflow: scroll;
+    height: 100vh;
+}
+.dragging{
+    opacity: .8;
+    
+   
+ 
+}
+.draggable{
+    cursor: pointer;
+    margin: 10px 0;
+}
